@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class App {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         String provedor = "Iceberg";
         System.out.printf("Olá, bem-vindo a central de atendimento %s", provedor );   
@@ -21,15 +25,9 @@ public class App {
         System.out.printf("\nObrigado %s, como posso lhe ajudar?", nome );
 
         
-        Scanner.close ();
-
-
-
-
-    
+        scanner.close();
 
         
-
-
     }
+
 }
